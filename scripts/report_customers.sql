@@ -1,13 +1,13 @@
 /*
 ====================================================================================
-Customer Report
+Customers Report
 ====================================================================================
 Purpose:
 	- This report consolidates key customer metrics and behaviours
 
 Highlights:
 	1. Gathers essential fields such as names, ages, and transaction details.
-		2. Segments customerd into categories (Vips, Regular, New) and age groups.
+		2. Segments customers into categories (Vips, Regular, New) and age groups.
 	3. Aggregates customer-level metrics:
 		- total orders
 		- total sales
@@ -21,7 +21,7 @@ Highlights:
 ===================================================================================
 */
 -- ================================================================================
--- Create Report report_customer
+-- Create Report: report_customers
 -- ================================================================================
 IF OBJECT_ID('gold.report_customers', 'V') IS NOT NULL
 	DROP VIEW gold.report_customers;
